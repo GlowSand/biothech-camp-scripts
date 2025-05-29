@@ -2,6 +2,11 @@
 
 set -e
 
+DEST="$HOME/Documents"
+
+echo "📁 Switching to your Documents folder at: $DEST"
+cd "$DEST"
+
 echo "🔽 Downloading AutoDock 4.2.6 for macOS..."
 curl -L -o autodocksuite-4.2.6-MacOSX.tar https://autodock.scripps.edu/wp-content/uploads/sites/56/2021/10/autodocksuite-4.2.6-MacOSX.tar
 
